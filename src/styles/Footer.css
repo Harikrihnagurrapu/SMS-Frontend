@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-top: 1px solid #ddd;
+  background-color: #f9f9f9; /* Change according to your theme */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  color: #888; /* Neutral gray text color */
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem; /* Space between icons */
+}
+
+.footer-icon {
+  font-size: 1.4rem;
+  color: #888;
+  transition: color 0.3s;
+}
+
+.footer-icon:hover {
+  color: #000; /* Darker color for hover effect */
+}
+
+.footer-logo {
+  height: 50px;
+  /* cursor: pointer;  */
+}
